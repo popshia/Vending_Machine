@@ -1,0 +1,96 @@
+$date
+	Wed Dec 25 15:50:28 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module simulate $end
+$var reg 1 ! clk $end
+$var reg 6 " coin [5:0] $end
+$var reg 3 # drink_choose [2:0] $end
+$var reg 1 $ reset $end
+$scope module a $end
+$var wire 1 ! clk $end
+$var wire 6 % coin [5:0] $end
+$var wire 3 & drink_choose [2:0] $end
+$var wire 1 $ reset $end
+$var reg 2 ' CUR_STATE [1:0] $end
+$var reg 2 ( NEXT_STATE [1:0] $end
+$var reg 6 ) refund [5:0] $end
+$var reg 6 * totalCoin [5:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 *
+b0 )
+bx (
+b0 '
+bx &
+bx %
+x$
+bx #
+bx "
+0!
+$end
+#5
+b0 (
+1!
+#10
+0!
+b1010 "
+b1010 %
+#15
+b1010 *
+1!
+#20
+0!
+b101 "
+b101 %
+#25
+b1 '
+b1111 *
+b1 (
+1!
+#30
+0!
+b1 "
+b1 %
+#35
+b10 (
+b10000 *
+1!
+#40
+0!
+b1010 "
+b1010 %
+#45
+b10 '
+b11010 *
+1!
+#50
+0!
+b11 #
+b11 &
+#55
+b11 (
+b110 )
+1!
+#60
+0!
+b0 #
+b0 &
+#65
+b11 '
+1!
+#70
+0!
+#75
+b0 (
+1!
+#80
+0!
